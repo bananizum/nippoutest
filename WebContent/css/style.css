@@ -18,11 +18,8 @@ body {
 }
 
 h1 {
-    width: 94%;
-    padding-top: 17px;
-    padding-left: 3%;
     font-size: 24px;
-    color: #eeeeee;
+    display: inline;
 }
 
 h2 {
@@ -128,7 +125,29 @@ select {
     color: #eeeeee;
 }
 
-h1 {
-    font-size: 24px;
-    display: inline;
+table#report_list th {
+    font-weight: bold;
+    padding: 10px 2%;
+}
+
+table#report_list .report_name {
+    width: 20%;
+    padding: 10px 2%;
+}
+table#report_list .report_date {
+    width: 20%;
+}
+
+table#report_list .report_title {
+    width: 37%;
+}
+
+table#report_list .report_action {
+    width: 13%;
+}
+pre {
+    font-family: "Hiragino Kaku Gothic Pro",Meiryo,"MS PGothic",Helvetica,Arial,sans-serif;
+}
+h3 {
+    font-size: larger;
 }
